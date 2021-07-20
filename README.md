@@ -1,6 +1,6 @@
 # CoDiNet
 
-This contains the PyTorch implementation of the CoDiNet papers, including
+This contains the PyTorch implementation of the CoDiNet papers,
 
 CoDiNet: Path Distribution Modeling with Consistency and Diversity for Dynamic Routing, TPAMI 2021.
 
