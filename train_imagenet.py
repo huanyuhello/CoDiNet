@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # Model
     dist_print('==> Building model..')
 
-    net = CoDiNet(args.backbone, args.block_type, classes, args.beta, args.finetune).cuda()
+    net = CoDiNet(args.backbone, classes, args.beta, args.finetune).cuda()
 
     if distributed:
         net = net.cuda()
