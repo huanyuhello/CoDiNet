@@ -27,6 +27,16 @@ Figure: Visualization for the distribution of routing paths within CoDiNet.
 ## Usage
     python -m torch.distributed.launch --nproc_per_node=$NGPUS train_cifar.py --dataset cifar10 --backbone resnet20 --train_bs 60 --aug_repeat 1 --test_bs 100 --lr 0.1 --epochs 60 --beta 25 --loss_w 0.0 --num_target 16 --log_path ./outputs/imagenet --note your_note
 
+## License and Citation
+
+```bibtex
+@inproceedings{wang2021codinet,
+    author = {Huanyu Wang and Zequn Qin and Songyuan Li and Xi Li},
+    title = {CoDiNet: Path Distribution Modeling with Consistency and Diversity for Dynamic Routing},
+    booktitle="IEEE Trans. Pattern Anal. Mach. Intell.",
+    year = {2021},
+}
+```
 ### Disclamer
 
 We based our code on [Convnet-AIG](https://github.com/andreasveit/convnet-aig), please go show some support!
